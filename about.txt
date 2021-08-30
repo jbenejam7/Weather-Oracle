@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <!-- Charlie Made this -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../static/styles/allWebPagesStyles.css">
+
+    <title>About Us</title>
+</head>
+<body>
+    <h1>The Team Behind Weather Oracle</h1>
+
+    <table id="page">
+        <tr>
+            <td id="aboutHeader">
+                <div class = "col-lg-12 col-lg-offset-12 cent">
+
+                     <form action="/">
+                        <input value="Home" type="submit" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+                    <form action="/login">
+                        <input value="Login" type="submit" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+                    <form action="/new">
+                        <input value="Register" type="submit" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+
+                </div>
+        </td>
+        </tr>
+
+        <div class="container-fluid">
+            <td id="tdcontent">
+                <div id="content">
+                    <div class="container">
+
+                        <!-- Edgar Slot-->
+                        <div class="row">
+                            <div class="col">
+                                <img src="Edgar Image will be here" class="img-responsive" alt="Edgar">
+                            </div>
+                            <div class="col-6">
+                                <section id="edgar-list">
+                                    <h2>
+                                        Team Lead Developer
+                                    </h2>
+                                    <h3>
+                                          Edgar Cruz
+                                    </h3>
+                                    <ul class="edgar-duties">
+                                        <li>Team Leader</li>
+                                        <li>Software Engineer</li>
+                                        <li>Responsible for the Backend development for the project</li>
+                                        <li>Setup the ChainLink Node and Chain link node smart Contract</li>
+                                        <li>Ensures stability and security of the block chain data stream</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+
+                        <!--Alec Spot -->
+                        <div class="row">
+                            <div class="col">
+                                <img src="Alec Image will be here" class="img-responsive" alt="Alec">
+                            </div>
+                            <div class="col-6">
+                                <section id="alec-list">
+                                    <h2>
+                                        Lead Computer Engineer
+                                    </h2>
+                                    <h3>
+                                          Alec Balais
+                                    </h3>
+                                    <ul class="alec-duties">
+                                        <li>Responsible for the Hardware Components and Setup of the various sensors and microcontroller software</li>
+                                        <li>Computer Engineer</li>
+                                        <li>Testing hardware components to collect the correct data</li>
+                                        <li>Setting up the connection to the ChainLink node to stream the weather data collect to the AWS server for storage</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+
+                        <!--Jorge Spot -->
+                        <div class="row">
+                            <div class="col">
+                                <img src="Jorge Image will be here" class="img-responsive" alt="Jorge">
+                            </div>
+                            <div class="col-6">
+                                <section id="jorge-list">
+                                    <h2>
+                                        Software Engineer
+                                    </h2>
+                                    <h3>
+                                          Jorge Benjamin
+                                    </h3>
+                                    <ul class="jorge-duties">
+                                        <li>Responsible for setting up the AWS Server and MySQL to use as a Database</li>
+                                        <li>Software Engineer</li>
+                                        <li>Testing server components on a separate MySQL environment before production</li>
+                                        <li>Setting up the connection to the AWS server to validate Users</li>
+                                        <li>Setup the Login page and registration page</li>
+                                        <li>Setting up  the Profile Page</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+
+
+                        <!--Charlies Spot -->
+                        <div class="row">
+                            <div class="col">
+                                <img src="Charlie Image will be here" class="img-responsive" alt="Charlie">
+                            </div>
+                            <div class="col-6">
+                                <section id="charlie-list">
+                                    <h2>
+                                        Frontend Software Engineer
+                                    </h2>
+                                    <h3>
+                                          Charlie Basantes
+                                    </h3>
+                                    <ul class="charlie-duties">
+                                        <li>Responsible for the look of the website and directories to various webpages</li>
+                                        <li>Frontend Software Engineer</li>
+                                        <li>Ensure each webpage looked consistent</li>
+                                        <li>Setup the Login Page and Registration page with Jorge</li>
+                                        <li>Setup the Home Page and About us Page, working on the Profile Page with Jorge next</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </div>
+    </table>
+
+
+</body>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>

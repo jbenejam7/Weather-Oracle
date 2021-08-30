@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <!-- Charlie Made this -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="../static/styles/allWebPagesStyles.css">
+
+
+  <title>WeatherApp</title>
+
+  </head>
+  <body>
+    <h1>Weather Oracle</h1>
+
+    <!-- <a href="login.html">Login</a>
+    <a href="register.html">Register New User</a> -->
+
+    <table id="page">
+        <tr>
+            <td id="tdheader">
+                <div class = "col-lg-12 col-lg-offset-12 cent">
+
+                    <form action="/login">
+                        <input value="Login" type="submit" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+                    <form action="/new">
+                        <input value="Register" type="submit" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+                    <form action="/about_us">
+                        <input value="About Us" type="submit" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+                    </form>
+
+
+
+                    <!--                    <button id="">-->
+<!--                        <p></p>-->
+<!--                    </button>-->
+                </div>
+            </td>
+        </tr>
+        <div class="container-fluid">
+            <td id="tdcontent">
+                <div id="content">
+                    <h2>Welcome to Weather Oracle and Thank you for choosing our device!</h2>
+                    <div class = "col-lg-12 col-lg-offset-12 cent">
+                        <p>
+                            We are a group made up of four  individuals. Edgar Cruz is our Lead Developer, Alec Balais is our<br>
+                            Engineer, Jorge Benejam and Charlie Basantes are both Software Engineers. If you would like to know more<br>
+                            about each member what each member did to contribute to the overal project, check our about us page.<br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p></p><br>
+
+                    </div>
+                </div>
+            </td>
+        </div>
+
+    </table>
+
+  </body>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Scripts Charlie Created for various needs -->
+<!--    <script src="scripts/profileScript.js"></script>-->
+<!--    <script src="scripts/main.js"></script>-->
+
+</html>
